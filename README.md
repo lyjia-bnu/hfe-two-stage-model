@@ -6,6 +6,8 @@ This project follows a **two-stage** pipeline:
 - **Stage-2 (MoletoSolv)** maps those descriptors to the target solvation free energy (ΔG_solv, HFE) using an ensemble of classical ML regressors with model fusion (e.g., weighted or stacking) [2].
 
 SMILES → SDF → graph(G) ──[Stage-1: DeepMoleNet]──> descriptor set (pred/QM)
+                                                      
+                                                         
                                                          │
                                                          └─[Stage-2: Mole2Solv]──> ΔG_solv
 
