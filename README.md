@@ -9,6 +9,11 @@ SMILES → SDF → graph(G) ──[Stage-1: DeepMoleNet]──> descriptor set (
                                                          │
                                                          └─[Stage-2: Mole2Solv]──> ΔG_solv
 
+```markdown
+SMILES → SDF → graph(G) → [Stage-1: DeepMoleNet] → descriptor set (pred/QM)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└→ [Stage-2: MoletoSolv] → ΔG_solv
+
 
 ### References
 
